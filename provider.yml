@@ -7,3 +7,7 @@ eureka:
 spring:
   application:
     name: provider
+
+bus:
+  test:
+    test bussssssssssss
