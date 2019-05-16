@@ -1,0 +1,11 @@
+zuul:
+  routes:
+    provider: /demo/**
+  ignored-patterns:
+    - /provider/**/
+  sensitive-headers:
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
