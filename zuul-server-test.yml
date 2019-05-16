@@ -1,6 +1,6 @@
 zuul:
   routes:
-    provider: /demo/**
+    provider: /uuu/**
   ignored-patterns:
     - /provider/**/
   sensitive-headers:
